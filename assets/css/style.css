@@ -1,0 +1,52 @@
+/* Define o estilo do fundo da página */
+body {
+    background: #D9D9D9;
+}
+
+/* Define o estilo da calculadora */
+.calculadora {
+    margin-top: 2.5rem;
+    border: solid 1px #000;
+    padding: 1.25rem;
+    background-color: #2E2E2E;
+    border-radius: 0.625rem;
+    box-shadow: 0.125rem 0.125rem 0.3125rem #000;
+}
+
+/* Define o estilo dos botões da calculadora */
+.btn {
+    width: 3.75rem;
+    height: 3.125rem;
+    margin: 0.3125rem;
+    box-shadow: 0.125rem 0.125rem 0.125rem #000;
+}
+
+/* Define o estilo do botão "C" (limpar) */
+.clear {
+    width: 8.125rem;
+}
+
+/* Define o estilo do botão "=" (igual) */
+.enter {
+    height: 6.875rem;
+}
+
+/* Define o estilo do botão "0" (zero) */
+.zero {
+    width: 8.125rem;
+}
+
+/* Define o estilo do visor da calculadora */
+.resultado {
+    text-align: right;
+    font-size: 1.25rem;
+    margin-top: 0.625rem;
+    margin-bottom: 1.25rem;
+    border: solid 1px #000;
+    box-shadow: 0.125rem 0.125rem 0.125rem #000;
+}
+
+/* Define o estilo do botão "0" (zero) quando estiver na primeira linha */
+#button-0 {
+    margin-top: -3.75rem;
+}
